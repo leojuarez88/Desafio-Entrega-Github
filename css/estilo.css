@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aqua;
+}
+
+/* Estilo a la imagen animada */
+
+.imagenAnimada {
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    justify-items: center;
+    align-items: center;
+    background-image: url(../imagenes/Hombre\ gordo.png);
+    transition: all 5s;
+}
+
+.imagenAnimada:hover{
+    background-image: url(../imagenes/Hombre\ flaco.png);
+
+}
