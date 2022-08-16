@@ -3,20 +3,38 @@
     padding: 0;
 }
 
-body {
-    background-color: aqua;
+.body {
+    background-color: aquamarine;
 }
 
 /* Estilo a la imagen animada */
 
-.imagenAnimada {
-    height: 300px;
-    width: 300px;
-    border: 3px solid black;
-    justify-items: center;
+.inicioH1 {
+    font-size:40px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.inicioParrafo {
+    font-size:20px;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.inicioAnimacion{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    flex-direction: column;
+}
+
+.imagenAnimada {
+    height: 400px;
+    width: 400px;
+    border: 3px solid black;
     background-image: url(../imagenes/Hombre\ gordo.png);
-    transition: all 5s;
+    transition: all 4s;
+    border-radius: 6px;
 }
 
 .imagenAnimada:hover{
