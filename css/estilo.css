@@ -4,7 +4,7 @@
 }
 
 .body {
-    background-color: aquamarine;
+    background: linear-gradient(to right,aquamarine, darkcyan)
 }
 
 /* Estilo a la imagen animada */
